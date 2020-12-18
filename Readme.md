@@ -1,3 +1,3 @@
 ### Gitops Demo
 
-GitOps demo3
+GitOps demo1
