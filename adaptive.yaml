@@ -3,7 +3,7 @@ Description: "GitOps test app"
 Home: https://adaptive.live
 Host: gitops-demo.adaptivecontent.online
 Icon: https://demo.adaptivecontent.online/inverse.gif
-Memory: 200m
+Memory: 64Mi
 Name: gitops-test
 Replica: 2
 Type: Service
