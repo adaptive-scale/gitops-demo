@@ -1,0 +1,9 @@
+Cpu: "0.04m"
+Description: "GitOps test app"
+Home: "https://adaptive.live"
+Host: "test.adaptivecontent.online"
+Icon: "http://demo.adaptivecontent.online:8080/inverse.gif"
+Memory: "200m"
+Name: "gitops-test"
+Replica: 1
+Type: "Service"
