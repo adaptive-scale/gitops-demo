@@ -11,7 +11,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    log.Println("Starting app")
+    log.Println("Starting app for demo with deb")
     http.HandleFunc("/", handler)
     log.Fatal(http.ListenAndServe(":8090", nil))
 }
