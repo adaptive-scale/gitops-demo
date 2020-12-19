@@ -1,4 +1,4 @@
-Cpu: 0.04m
+Cpu: 500m
 Description: "GitOps test app"
 Home: https://adaptive.live
 Host: gitops-demo.adaptivecontent.online
