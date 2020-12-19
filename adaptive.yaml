@@ -1,8 +1,8 @@
 Cpu: 0.04m
 Description: "GitOps test app"
 Home: https://adaptive.live
-Host: gitops-demo.local
-Icon: http://demo.adaptivecontent.online:8080/inverse.gif
+Host: gitops-demo..adaptivecontent.online
+Icon: https://demo.adaptivecontent.online/inverse.gif
 Memory: 200m
 Name: gitops-test
 Replica: 1
