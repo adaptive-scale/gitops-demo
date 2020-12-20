@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
     log.Println("api received")
-    fmt.Fprintf(w, "Hi there, This is adaptive demo no. 9")
+    fmt.Fprintf(w, "Hi there, This is adaptive demo no. 10")
 }
 
 func main() {
