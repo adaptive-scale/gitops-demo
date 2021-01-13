@@ -9,3 +9,7 @@ icon: https://demo.adaptivecontent.online/inverse.gif
 memory: 200Mi
 cpu: 300m
 replica: 1
+autoscaling:
+  minReplicas: 1
+  maxReplicas: 10
+  cpuThreshold: 80
