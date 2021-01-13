@@ -6,6 +6,12 @@ home: https://adaptive.live
 host: gitops-demo.adaptivecontent.online
 icon: https://demo.adaptivecontent.online/inverse.gif
 
+#environment variable
+env:
+  TEST_PARAM_1: "asd"
+  TEST_PARAM_2: "asd2"
+  
+#resource requirements
 memory: 200Mi
 cpu: 300m
 replica: 1
