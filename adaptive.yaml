@@ -19,4 +19,4 @@ replica: 1
 autoscaling:
   minReplicas: 1
   maxReplicas: 10
-  cpuThreshold: 1
+  cpuThreshold: 0.1
