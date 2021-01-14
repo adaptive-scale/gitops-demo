@@ -1,7 +1,7 @@
 type: Service
 name: "gitops-test"
 
-# app meta data
+# app metadata
 description: "GitOps test app"
 home: https://adaptive.live
 host: gitops-demo.adaptivecontent.online
@@ -9,17 +9,8 @@ icon: https://demo.adaptivecontent.online/inverse.gif
 
 #environment variable
 env:
-  TEST_PARAM_1: "testpara1"
+  TEST_PARAM_1: "testparameter2"
   TEST_PARAM_2: "asd2"
- 
-#configuration file/properties file
-config:
-  - location: "/cfg"
-    props:
-    - name: "test.properties"
-      content: |
-        test.test = test
-        asdfsdf.test = test
   
 #resource requirements
 memory: 200Mi
@@ -29,5 +20,5 @@ replica: 1
 #autoscaling requirements
 autoscaling:
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 8
   cpuThreshold: 80
