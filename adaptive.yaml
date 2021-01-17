@@ -4,7 +4,7 @@ name: "gitops-test"
 # app metadata
 description: "GitOps test app"
 home: https://adaptive.live
-host: gitops-demo.adaptivecontent.online
+host: gitops-acceptance.adaptivecontent.online
 icon: https://demo.adaptivecontent.online/inverse.gif
 
 #environment variable
