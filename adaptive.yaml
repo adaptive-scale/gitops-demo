@@ -2,9 +2,9 @@ type: Service
 name: "gitops-test"
 
 # app metadata
-description: "GitOps test demo app now"
+description: "GitOps staging demo app now"
 home: https://adaptive.live
-host: gitops-demo.adaptivecontent.online
+host: gitops-staging.adaptivecontent.online
 icon: https://demo.adaptivecontent.online/inverse.gif
 
 #environment variable
