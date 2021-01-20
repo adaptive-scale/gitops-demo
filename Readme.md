@@ -1,3 +1,3 @@
-### Gitops Demo
+### Gitops Demo with Adaptive
 
-GitOps demo3
+GitOps demo with Adaptive Platform showcases a seamless container deployment.
