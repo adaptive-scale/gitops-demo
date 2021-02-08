@@ -9,8 +9,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println("api received")
-	fmt.Fprintf(w, "Hi there, This is ronak adaptive demo with env parameters "+os.Getenv("TEST_PARAM_1")+" no. 44")
-}
+	fmt.Fprintf(w, "Hi there, Thi}
 
 func main() {
 	log.Println("Starting app for demo for debarshi")
