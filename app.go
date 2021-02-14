@@ -4,7 +4,6 @@ import (
     "fmt"
     "log"
     "net/http"
-    "log"
     "os"
 )
 
@@ -14,7 +13,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func errHandler(w http.ResponseWriter, r *http.Request) {
-    log.Println("error=triggered triggering error for demo")
+    log.Println("error=triggered Error triggered for adaptive demo")
     fmt.Fprintf(w, "Error triggered.")
 }
 
