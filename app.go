@@ -14,6 +14,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func errHandler(w http.ResponseWriter, r *http.Request) {
     log.Println("error=triggered Error triggered for adaptive demo 1")
+    log.Println("error=demo for show advanced logging")
     fmt.Fprintf(w, "Error triggered.")
 }
 
