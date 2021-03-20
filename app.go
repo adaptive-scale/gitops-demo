@@ -9,7 +9,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
     log.Println("api received")
-    fmt.Fprintf(w, "Hi there, This is adaptive demo with env parameters "+os.Getenv("TEST_PARAM_1")+" no. 65")
+    fmt.Fprintf(w, "Hi there, This is adaptive demo with env parameters "+os.Getenv("TEST_PARAM_1")+" no. 66")
 }
 
 func errHandler(w http.ResponseWriter, r *http.Request) {
