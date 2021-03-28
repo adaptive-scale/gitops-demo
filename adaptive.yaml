@@ -5,6 +5,7 @@ name: "gitops-test"
 description: "GitOps staging demo app now"
 home: https://adaptive.live
 icon: https://demo.adaptivecontent.online/inverse.gif
+host: test.adaptivecontent.online
 
 #environment variable
 env:
