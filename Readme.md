@@ -2,4 +2,4 @@
 
 GitOps demo with Adaptive Platform showcases a seamless container deployment.
 
-Demo test
+Demo test - 1
