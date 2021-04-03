@@ -9,7 +9,7 @@ icon: https://demo.adaptivecontent.online/inverse.gif
 
 #environment variable
 env:
-  TEST_PARAM_1: "testparameter2"
+  TEST_PARAM_1: "testparameter4"
   TEST_PARAM_2: "asd3"
 
 #configuration properties
