@@ -11,15 +11,6 @@ icon: https://demo.adaptivecontent.online/inverse.gif
 env:
   TEST_PARAM_1: "testparameter7"
   TEST_PARAM_2: "asd3"
-
-#configuration properties
-config:
-  - location: "/cfg"
-    props:
-    - name: "test.properties"
-      content: |
-        test.test = test
-        asdfsdf.test = test
   
 #resource requirements
 capacity:
