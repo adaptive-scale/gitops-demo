@@ -22,12 +22,7 @@ config:
         asdfsdf.test = test
   
 #resource requirements
-memory: 200Mi
-cpu: 300m
-replica: 1
-
-#autoscaling requirements
-autoscaling:
-  minReplicas: 1
-  maxReplicas: 8
-  cpuThreshold: 80
+capacity:
+  memory: 200Mi
+  cpu: 300m
+  replica: 1
