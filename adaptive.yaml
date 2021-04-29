@@ -7,7 +7,7 @@ home: https://adaptive.live
 expose: true
 icon: https://demo.adaptivecontent.online/inverse.gif
 
-healthcheck: "/healhz"
+healthcheck: "/healthz"
 
 #environment variable
 env:
