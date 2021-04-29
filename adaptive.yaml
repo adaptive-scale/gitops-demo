@@ -7,6 +7,8 @@ home: https://adaptive.live
 expose: true
 icon: https://demo.adaptivecontent.online/inverse.gif
 
+healthcheck: "/healhz"
+
 #environment variable
 env:
   TEST_PARAM_1: "testparameter8"
