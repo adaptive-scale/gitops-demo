@@ -21,7 +21,7 @@ func errHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
     log.Println("Starting app for demo for debarshi")
     http.HandleFunc("/", handler)
+    http.HandleFunc("/healthz", handler)
     http.HandleFunc("/error", errHandler)
-
     log.Fatal(http.ListenAndServe(":80", nil))
 }
