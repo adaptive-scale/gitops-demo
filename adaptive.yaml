@@ -7,6 +7,7 @@ home: https://adaptive.live
 expose: true
 icon: https://demo.adaptivecontent.online/inverse.gif
 
+# health check endpoint
 healthcheck: "/healthz"
 
 #environment variable
