@@ -19,7 +19,7 @@ func errHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    log.Println("Starting app for demo for debarshi")
+    log.Println("Starting app for demo for" +os.Getenv("TEST_PARAM_1"))
     http.HandleFunc("/", handler)
     http.HandleFunc("/healthz", handler)
     http.HandleFunc("/error", errHandler)
